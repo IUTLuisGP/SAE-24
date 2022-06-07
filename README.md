@@ -1,2 +1,2 @@
 # SAE-24
-GitHub pour la SEA 24
+GitHub pour la SAE 24
