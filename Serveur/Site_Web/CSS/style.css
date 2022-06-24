@@ -1,0 +1,248 @@
+/* Navigation bar */
+header {
+	  position: relative;
+    top: 0;
+    width: 100%;
+  
+}
+
+nav ul li p {
+   display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+  
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404E59; 
+}
+
+
+
+nav ul li 
+{
+  float: left;
+  border-right: none;
+}
+
+nav ul li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px
+}
+
+nav ul li a:hover:not(.first)
+{
+  background-color: #335F8A;
+  color: white
+}
+
+/* Style for history table */
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: 50%;
+}
+
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+padding: 5px;
+background-color: #D0E3FA;
+}
+.table {
+  width: 50%;
+}
+
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #404E59;
+  bottom: 0;
+  position: flex;
+  width: 100%;
+}
+.pagecourte{
+  bottom: 0;
+  position: fixed;
+}
+
+footer ul li:last-child {
+  float: right;
+  text-align: right;
+  color: #F2F2F2;
+  font-size: 25px;
+  padding: 25px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} 
+footer ul li a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+footer ul li {
+  float: left;
+  border-right: none;
+}
+
+/* Titles */
+
+h1 {
+  text-align: center;
+}
+
+/* Navigation bar images*/
+
+nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 150px;
+    height : 64px;
+  padding-block: 10px;
+}
+
+/* Body images  */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+
+
+* {
+  margin:  0;
+  padding: 0;
+}
+
+/* Text */
+
+p {
+  padding: 15px;
+  font-size: 25px;
+  font-family: IBM Plex Sans;
+  color: #335F8A;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+
+/* max-width for high resolution screens */
+@media screen and (min-width: 1280px) 
+{
+	nav ul li 
+	{
+		float: left;
+		border-right:1px solid #BBBBBB;
+	}
+		
+  nav img {
+    display:inline;
+    float: left;
+    padding: 0px
+  }
+}
+
+
+/* max-width fow low résolution screens */
+@media screen and (max-width: 1000px) 
+{
+	nav ul li 
+	{
+		width: 100%;
+		border-right:1px solid white ;
+	}
+
+	nav ul li a 
+	{
+		padding: 3px;
+	}
+
+  p {
+  padding: 10px;
+  font-size: 20px;
+  font-family: IBM Plex Sans;
+  color: #335F8A;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  nav ul li p {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+  }
+  nav {
+      background-color: #404E59;
+  }
+  img {
+    max-width: 100%;
+  }
+ 
+}
+/* Style of positions */
+
+.rien{ /* Corresponds to no passage on the box */
+    background-color: white;
+}
+/* Corresponds to the first value on the box */
+.depart{
+    background-color: cyan;
+}
+/* Corresponds to the actual value on the box */
+.now{
+    background-color: green;
+}
+/* Corresponds to an old path on the box */
+.passage{
+    background-color: red;
+}
+/* Corresponds to several old passages on the box */
+.multipassage{
+    background-color: purple;
+}
+/* Corresponds to the different sensors */
+.capteur{
+    background-color: orange;
+}
+button{
+    border-style:solid;
+    border-color: black;
+    margin: 0.25px;
+    height: 30px;
+    width: 30px;
+}
+
+/* Lower page */
+.bas_page {
+  margin-bottom: 25%;
+}
