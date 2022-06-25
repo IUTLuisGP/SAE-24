@@ -13,6 +13,8 @@
   <meta name="keywords" content="HTML, CSS" />
   <link rel="stylesheet" type="text/css" href="CSS/style.css" />
  </head>
+	<!-- Beginning of the web page's body -->
+   <body>
     <header>
 	    <!-- Navigation bar -->
       <nav>
@@ -26,8 +28,6 @@
                 </ul>
       </nav>
     </header>
-  <!-- Beginning of the web page's body -->
-    <body>
         <br>
         <h1> Position </h1>
         <h2>Historique des positions</h2>
