@@ -28,13 +28,14 @@
                 </ul>
       </nav>
     </header>
-        <br>
+        <br />
         <h1> Position </h1>
         <h2>Historique des positions</h2>
         <table>
             <th>x</th>
             <th>y</th>
             <th>Date et Heure</th>
+		<!-- Beginning of the PHP code to display the position values--> 
             <?php
                 include("./mysql.php"); # Connection to the database
                 $query = "SELECT * FROM position order by `date/heure` DESC"; # Query that selects all data sorted by date from the most recent to the oldestquery that selects all data sorted by date from the most recent to the oldest
