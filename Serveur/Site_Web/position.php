@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
  <head>
+	 <!-- Title of the web page -->
   <title>SAE 24</title>
+	 
+	 <!-- Definition of the metadata of the website -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
   <meta http-equiv= "X-UA-Compatible" content= "IE=edge" />
@@ -11,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="CSS/style.css" />
  </head>
     <header>
+	    <!-- Navigation bar -->
       <nav>
             <ul>
               <a href="index.html"><img src="Images/logo.png" alt="Images/logo.png"/></a>
@@ -22,7 +26,7 @@
                 </ul>
       </nav>
     </header>
-  
+  <!-- Beginning of the web page's body -->
     <body>
         <br>
         <h1> Position </h1>
@@ -121,6 +125,7 @@
                 }
             ?>
         </div>
+		<!-- Website's footer -->
         <footer>
          <ul>
     				<li>
